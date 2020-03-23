@@ -1,0 +1,113 @@
+body{font-family:'Source Sans Pro', sans-serif; }
+.jumbotron{
+    text-align: center;
+    background:none;
+    
+}
+/*.col .col-md-6,.col .col-sm-12{ text-align: center;}*/
+.col .Chesscarousel{margin:auto;}
+.sectionlight{
+    background-color:#eceeef;
+    padding:2rem;
+    
+}
+div.sectiondark{
+    background-color: #cccccc;
+    padding:2rem;
+    
+}
+.Sec2pad{
+    padding:0;
+}
+.Mybutton {
+    margin-top:20px;
+    
+}
+button.Mybuttonstyle{
+background-color:forestgreen;
+    color:white;
+    display:block;
+    margin:auto;
+}
+
+h5.modal-title{
+    margin-left:auto;
+    color: darkgreen;
+    
+}
+.modalbuttons{
+    padding:2rem;
+}
+.modalbuttons input{
+   
+    margin: auto;
+    width: 330px;
+ 
+}
+input.onlyinput{
+    margin-bottom: 10px;
+}
+.pic1,.pic2{
+    text-align: center;
+    padding:2rem;
+}
+
+
+ img.img1{
+     max-height: 450px;
+  
+    }
+img.img2{max-height: 400px;
+    
+}
+/***********SECTION-3 *************/
+.sec3pic .row img{
+    display: block;
+    
+    text-align: center;
+    width: 65%;
+    margin:auto;
+    padding-top:20px;
+/*    border-style: 1, 2,3,.4;*/
+}
+.btnclick{
+    display:block;
+    margin:auto;
+    width:65%;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+.lastpic{
+    margin:auto;
+    padding:1rem;
+
+} 
+.futer {margin: auto;}
+
+i{
+    margin: 15px;
+}
+    
+}
+
+/*88888888  Media Queries 888888888*/
+
+@media(max-width:756px){
+    
+   
+    img.img1,img.img2{
+     max-height: 450px;
+     max-width: 230px;    
+    }
+  
+}
+
+
+
+@media (max-width:992px){
+    .futer{
+        text-align: center;
+    }
+   
+}
